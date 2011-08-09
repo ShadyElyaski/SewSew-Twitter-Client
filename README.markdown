@@ -7,8 +7,11 @@ SewSew is a simple twitter client built over WPF - C# - Visual Studio 2010
 **It has more features including:**
 
 1- Responsive UI in heavy duty operations.
+
 2- Users’ DP and tweet auto-cache.
+
 3- Reply feature to a tweet.
+
 4- OAuth Login.
 
 ## Documentation
