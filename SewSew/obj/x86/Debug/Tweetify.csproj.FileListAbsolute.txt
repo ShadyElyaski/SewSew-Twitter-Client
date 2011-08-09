@@ -1,0 +1,13 @@
+C:\Users\iShedo\Desktop\Tweetify\Tweetify\bin\Debug\Tweetify.exe
+C:\Users\iShedo\Desktop\Tweetify\Tweetify\bin\Debug\Tweetify.pdb
+C:\Users\iShedo\Desktop\Tweetify\Tweetify\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\iShedo\Desktop\Tweetify\Tweetify\obj\x86\Debug\MainWindow.baml
+C:\Users\iShedo\Desktop\Tweetify\Tweetify\obj\x86\Debug\MainWindow.g.cs
+C:\Users\iShedo\Desktop\Tweetify\Tweetify\obj\x86\Debug\App.g.cs
+C:\Users\iShedo\Desktop\Tweetify\Tweetify\obj\x86\Debug\Tweetify_MarkupCompile.cache
+C:\Users\iShedo\Desktop\Tweetify\Tweetify\obj\x86\Debug\Tweetify.g.resources
+C:\Users\iShedo\Desktop\Tweetify\Tweetify\obj\x86\Debug\Tweetify.Properties.Resources.resources
+C:\Users\iShedo\Desktop\Tweetify\Tweetify\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\iShedo\Desktop\Tweetify\Tweetify\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\iShedo\Desktop\Tweetify\Tweetify\obj\x86\Debug\Tweetify.exe
+C:\Users\iShedo\Desktop\Tweetify\Tweetify\obj\x86\Debug\Tweetify.pdb

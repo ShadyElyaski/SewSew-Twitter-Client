@@ -1,0 +1,18 @@
+﻿<Window x:Class="SewSew.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SewSew" Height="535" Width="300" ResizeMode="CanResize" MinWidth="300" MaxWidth="300" WindowStyle="SingleBorderWindow" Icon="/SewSew;component/Images/twitter.png" Background="LightSteelBlue" SizeChanged="Window_SizeChanged" WindowStartupLocation="CenterScreen">
+    <Grid Width="313" Height="Auto">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="460*" />
+            <RowDefinition Height="17*" />
+        </Grid.RowDefinitions>
+        <TextBox Height="49" HorizontalAlignment="Left" Margin="4,61,0,0" Name="Tweet_txt" VerticalAlignment="Top" Width="211" AutoWordSelection="True" TextWrapping="Wrap" AcceptsReturn="True" TextChanged="Tweet_txt_TextChanged" />
+        <Button Content="Tweet" Height="49" HorizontalAlignment="Left" Margin="221,61,0,0" Name="Tweet_btn" VerticalAlignment="Top" Width="59" Click="Tweet_btn_Click" FontFamily="Adobe Fangsong Std" FontWeight="Bold" Foreground="#FF435783" />
+        <Label Content="What's Happening?" Height="28" HorizontalAlignment="Left" Margin="4,23,0,0" Name="label1" VerticalAlignment="Top" Width="186" FontSize="16" FontFamily="Viner Hand ITC" FontWeight="Bold" Foreground="#FF435783" />
+        <Label Content="140" Height="34" HorizontalAlignment="Left" Margin="221,21,0,0" Name="Count_lbl" VerticalAlignment="Top" Width="59" Foreground="Gray" FontSize="26" FontFamily="Brush Script Std" FontWeight="Normal"></Label>
+        <ListBox ScrollViewer.HorizontalScrollBarVisibility="Disabled" Height="373" HorizontalAlignment="Left" Margin="4,116,0,0" Name="Timeline_lstbx" VerticalAlignment="Top" Width="276" BorderThickness="1" SnapsToDevicePixels="True" MouseDoubleClick="Timeline_lstbx_MouseDoubleClick" Grid.RowSpan="2" Background="LightSteelBlue" />
+        <Image Height="23" HorizontalAlignment="Left" Margin="167,23,0,0" Name="Reload_btn" Stretch="Fill" VerticalAlignment="Top" Width="23" ToolTip="Reload Timeline" MouseDown="Reload_btn_MouseDown" Source="/SewSew;component/Images/Redo.ico" />
+        <Image Height="23" HorizontalAlignment="Left" Margin="192,23,0,0" Name="About_btn" Source="/SewSew;component/Images/Info.ico" Stretch="Fill" ToolTip="About" VerticalAlignment="Top" Width="23" MouseDown="About_btn_MouseDown" />
+    </Grid>
+</Window>

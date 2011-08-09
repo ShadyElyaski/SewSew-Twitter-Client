@@ -1,0 +1,9 @@
+﻿* Validate PIN field
+* Store in config file
+* users dp
+* Tweet Counter
+* Update every 10 mins
+* Cachable Tweets and dp
+* UI Responsive (In Heavy Processes)
+* Reply to status
+* Auto "Reply to" Detection

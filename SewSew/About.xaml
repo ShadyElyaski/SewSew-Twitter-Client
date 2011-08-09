@@ -1,0 +1,26 @@
+﻿<Window x:Class="SewSew.About"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="About" Height="332" Width="422" Background="LightSteelBlue" WindowStyle="ToolWindow" ResizeMode="NoResize" Topmost="True" ShowInTaskbar="False">
+    <Grid>
+        <Button Content="Take me back!" Height="28" HorizontalAlignment="Left" Margin="144,265,0,0" Name="Exit_btn" VerticalAlignment="Top" Width="115" Click="Exit_btn_Click" />
+        <GroupBox Header="Features" Height="188" HorizontalAlignment="Left" Margin="12,71,0,0" Name="groupBox1" VerticalAlignment="Top" Width="391">
+            <Grid>
+                <ListBox Height="153" HorizontalAlignment="Left" Margin="3,4,0,0" Name="Featurs_lst" VerticalAlignment="Top" Width="372">
+                    <ListBoxItem Content="Validate PIN field" />
+                    <ListBoxItem Content="Store in config file" />
+                    <ListBoxItem Content="Support for Users' DP" />
+                    <ListBoxItem Content="Tweet Counter" />
+                    <ListBoxItem Content="Update timeline every 10 mins" />
+                    <ListBoxItem Content="Cachable Tweets and DPs" />
+                    <ListBoxItem Content="UI Responsive (In Heavy Processes)" />
+                    <ListBoxItem Content="Reply to status" />
+                    <ListBoxItem Content="Auto &quot;Reply to&quot; Detection" />
+                </ListBox>
+            </Grid>
+        </GroupBox>
+        <TextBlock Height="22" HorizontalAlignment="Left" Margin="12,9,0,0" Name="textBlock1" Text="Version: 1.1.0" VerticalAlignment="Top" Width="391" />
+        <TextBlock Height="22" HorizontalAlignment="Left" Margin="12,28,0,0" Name="textBlock2" Text="Coded by: Shady Ahmed El-Yaski" VerticalAlignment="Top" Width="391" />
+        <TextBlock Height="22" HorizontalAlignment="Left" Margin="12,48,0,0" Name="textBlock3" Text="Email: shady@elyaski.com" VerticalAlignment="Top" Width="391" />
+    </Grid>
+</Window>

@@ -1,0 +1,18 @@
+﻿<Window x:Class="SewSew.Config"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Configure" Height="207" Width="310" ResizeMode="NoResize" WindowStyle="ToolWindow" Background="LightSteelBlue" Icon="/SewSew;component/Images/twitter.png">
+    <Grid>
+        <Canvas Height="168" HorizontalAlignment="Left" Name="Step1_cnv" VerticalAlignment="Top" Width="288">
+            <Button Content="Get PIN" Height="54" Name="GetPIN_btn" Width="185" Canvas.Left="55" Canvas.Top="97" Click="GetPIN_btn_Click" />
+            <TextBlock Canvas.Left="24" Canvas.Top="17" Height="74" Name="textBlock1" Text="It appears that it's the first time for you to run this application. Please press on the button bellow to authenicate." Width="241" TextTrimming="None" TextWrapping="Wrap" TextAlignment="Justify" />
+        </Canvas>
+        <Canvas Height="168" HorizontalAlignment="Left" Name="Step2_cnv" VerticalAlignment="Top" Width="288">
+            <TextBlock Canvas.Left="24" Canvas.Top="17" Height="74" Name="textBlock2" Text="Please Copy PIN Code from the browser into the textbox bellow." Width="241" TextTrimming="None" TextWrapping="Wrap" TextAlignment="Justify" />
+            <TextBox Height="58" DataObject.Pasting="PIN_txt_Pasting" HorizontalAlignment="Left" Margin="437,150,0,0" Name="PIN_txt" VerticalAlignment="Top" Width="155" FontSize="36" TextAlignment="Center" Foreground="Gray" Canvas.Left="-327" Canvas.Top="-91" MaxLength="7" MaxLines="1" KeyDown="PIN_txt_KeyDown" />
+            <Label Content="PIN" Height="61" HorizontalAlignment="Left" Margin="348,144,0,0" Name="label1" VerticalAlignment="Top" Width="74" FontStretch="Normal" FontStyle="Normal" FontSize="40" Foreground="Black" Canvas.Left="-324" Canvas.Top="-87" />
+            <Button Canvas.Left="66" Canvas.Top="124" Content="Authenticate" Height="38" Name="Authenticate_btn" Width="161" Click="Authenticate_btn_Click" />
+            <Image Canvas.Left="267" Canvas.Top="59" Height="21" Name="Error_img" Stretch="Uniform" Width="19" Source="/SewSew;component/Images/close.ico" UseLayoutRounding="True" />
+        </Canvas>
+    </Grid>
+</Window>
